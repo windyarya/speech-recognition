@@ -1,0 +1,25 @@
+{"intents" : [
+    {"tag": "greeting",
+    "patterns": ["hello", "hey", "what's up"],
+    "responses": ["Hello", "Hey", "What", "What can I help you?"]
+},
+    {"tag": "goodbye",
+    "patterns": ["See you later", "Goodbye", "bye", "sayonara"],
+    "responses": ["Goodbye", "See you too", "Talk to you later"]
+},
+    {"tag": "name",
+    "patterns": ["what is your name?", "what should i call you", "whats your name?", "What can i call you?"],
+    "responses": ["You can call me Budi", "I am Budi", "I am Budi, the asstant of Andi"]
+},
+    {"tag": "age",
+    "patterns": ["how old", "how old are you?", "how old is Andi", "age?"],
+    "responses": ["20 years", "Andi is 20 years old"]
+},
+    {"tag": "campus",
+    "patterns": ["what campus Andi goes to?", "what campus are you?"],
+    "responses": ["Sepuluh Nopember Institute of Technology", "ITS"]
+},
+    {"tag": "girlfriend",
+    "patterns": ["does budi has girlfriend?", "who is budi is girlfriend?", "who is budi's girlfriend?"],
+    "responses": ["unfortunately no", "no"]}
+]}
